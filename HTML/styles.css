@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+input {
+    margin: 5px;
+}
+
 .cls-1 {
     background-color: brown;
 }
@@ -24,7 +28,11 @@ span {
     height: 200px;
     border: 1px solid black;
     margin: 10px;
-    padding: 50px;
+    padding: 10px;
+}
+
+.blue {
+    color: blue;
 }
 
 .cls-2 {
