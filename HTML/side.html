@@ -6,18 +6,61 @@
     <title>Side HTML</title>
 </head>
 <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     .side-header {
-        margin: 10px;
+        border: 1px solid black;
+        padding: 10px 0 10px 0;
+        background-color: darksalmon;
     }
 
     .nav-link {
         margin: 10px;
+        border: 1px solid black;
+        border-radius: 4px;
+        width: fit-content; /*150px;*/
+        padding: 10px;
+        background-color: white;
     }
+
+    .nav-link a  {
+        text-decoration: none;
+        color: hotpink;
+    }
+
+    body {
+        background-image: url("./sea.jpeg");
+    }
+
+    .nav-items {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .nav-item {
+        padding: 5px;
+    }
+
 </style>
 <body>
-    <div class="side-header">Side page</div>
+    <div class="side-header">
+        <span>Side page Logo</span>
+        <div class="nav-items">
+            <button class="nav-item"> button 1</button>
+            <button class="nav-item"> button 2</button>
+            <button class="nav-item"> button 3</button>
+        </div>
+    </div>
+    <div>
+        <a href="./index.html">Back to Index HTML without CSS styles.</a>
+    </div>
+
     <div class="nav-link">
-        <a href="./index.html">Back to Index HTML.</a>
+        <a href="./index.html">Back to Index HTML with CSS styles.</a>
     </div>
 </body>
 </html>
