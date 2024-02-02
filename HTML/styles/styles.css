@@ -1,0 +1,68 @@
+
+/*Selector by Tag*/
+body { 
+    background-color: orange;
+}
+
+h1 {
+    background-color: black;
+    color: white
+}
+
+#unique-1 {
+    border-radius: 5px;
+    color: aquamarine
+}
+
+
+/* id class attribute tag
+0   0     0        1  1
+
+1   0     0        0 1000 */
+
+
+#unique-1 {
+    color: white;
+    background-color: black;
+}
+
+input {
+    margin: 5px;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cls-1 {
+    background-color: brown;
+}
+
+div {
+    background-color: aquamarine;
+}
+
+span {
+    background-color: #FFFFFF;
+}
+
+.blue {
+    color: blue;
+}
+
+.cls-2 {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.app-from {
+    margin: 10px;
+}
+
+.green-color {
+    color: green;
+}
